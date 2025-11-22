@@ -1,0 +1,47 @@
+/*
+    input :
+        5
+    
+    Output:
+            a   b   c   d   e
+    Index:  1   2   3   4   5
+    ASCII:  97  98  99  100 101
+        
+ */
+import java.util.Scanner;
+
+class Pattern
+{
+    public void Display(int iNo)
+    {   
+        int i  = 97;
+        int iCnt = 0;
+
+        for(iCnt  = 1 ; iCnt <= iNo ; iCnt++,i++)                      //Outer Loop // two incrementer
+            {
+                System.out.printf("%d\t",i);
+                
+            }
+            System.out.println();
+    }
+}
+
+
+class program173
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+        int iValue = 0;
+
+        System.out.println("Enter the Frequency:-");
+        iValue = sobj.nextInt();
+        
+        
+        Pattern pobj = new Pattern();
+        pobj.Display(iValue);
+
+        
+    }
+    
+}
