@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+void CountAll(char str[])            
+{
+    int iCountCapital = 0,iCountSmall = 0;
+
+    while(*str != '\0')
+    {
+        if (*str >= 'A' && *str <= 'Z')
+        {
+            iCountCapital++;
+        }
+        else
+        {
+            iCountSmall++;
+        }
+    str++;
+    }
+
+    printf("The Count of Capital :%d\n",iCountCapital);
+    printf("The Count of Small%d\n",iCountSmall);
+}
+
+int main()
+{
+    char Arr[50] = {'\0'};
+
+    printf("Enter string :- \n");
+    scanf("%[^'\n']s",Arr); 
+
+    CountAll(Arr);
+
+    return 0;
+
+}
