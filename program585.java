@@ -53,6 +53,5 @@ class program585
             System.out.println("There is no such folder are :");
         }
         sobj.close();
-        
     }    
 }
