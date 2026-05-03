@@ -5,7 +5,7 @@ class program585
 {
     public static void main(String[] args) throws Exception
     {
-        int iRet = 0;
+        int iRet;
         byte Buffer[] = new byte[1024];
         
         Scanner sobj = new Scanner(System.in);
