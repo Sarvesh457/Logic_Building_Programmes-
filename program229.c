@@ -26,6 +26,5 @@ int main()
     iRet = CountCapital(Arr);
 
     printf("Number Capital character occurrences are : %d\n",iRet);
-    return 0;
-
+    return 0;
 }
