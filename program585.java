@@ -5,7 +5,7 @@ class program585
 {
     public static void main(String[] args) throws Exception
     {
-        int iRet;
+        int iRet = 0;
         byte Buffer[] = new byte[1024];
         
         Scanner sobj = new Scanner(System.in);
@@ -53,5 +53,6 @@ class program585
             System.out.println("There is no such folder are :");
         }
         sobj.close();
+        
     }    
 }
